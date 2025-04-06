@@ -56,15 +56,17 @@ for quantity_made in quantities:
 	# the 
 	# loop 
 	# body
+	print(quantity_made)
 
 # un-indented code does not belong to the loop
 ```
 
-The loop will set the variable `quantity_made` one by one to the members of the list
+The loop will set the variable `quantity_made` one by one to the members of the list.  Inside teh body of the loop it prints that value.  Run it to make sure
+it displays the three quantity values
 
 Copy/paste ONE copy of the pay calculation code into the loop body.  It must be indented to become the loop body
 
-REMOVE the assignment to `quantity_made` the loop already does that.
+REMOVE the assignment to `quantity_made`, the loop already does that.
 
 Test to see that the loop produces the same results as the original repeated code
 
