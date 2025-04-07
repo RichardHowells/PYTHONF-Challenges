@@ -3,7 +3,7 @@
 # Day 1
 # Calculating Pay
 
-Jemima take a job making widgets.  She is paid 50p for each widget she makes.
+Jemima takes a job making widgets.  She is paid 50p for each widget she makes.
 
 Write a program to calculate her pay for making 30 widgets, 40 widgets and 50 widgets.
 
@@ -30,12 +30,12 @@ print(pay)
 Manually calculate the expected values and test that the program produces the results you expect
 
 Extend that program so that for each widget after 35 Jemima is paid at a 50% higher rate per widget. You will have to do a 
-little research for this, as of Day 1 we have not properly covered the `if` statement.  Don't worry if you have trouble with this we will
+little research on the `if` statement for this.  As of Day 1 we have not properly covered the `if` statement.  Don't worry if you have trouble with it we will
 cover the `if` statement properly later on
 
 Test it as above
 
-Extend it again so that after Jemima produces 45 widgets she gets a 10% bonus on her entire pay
+Extend your code again so that after Jemima produces 45 widgets she gets a 10% bonus on her entire pay
 
 Test it as above
 
