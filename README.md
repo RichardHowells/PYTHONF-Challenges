@@ -94,14 +94,51 @@ Print all the odd subscript items
 
 Print the list in reverse order
 
+Overwrite the first element in the list with the value 5
+
+# Lab 02D
+
+Create a tuple containing the values 10, 20, 30, 40
+
+Attempt to overwrite the first element in the tuple.  Discover that Python
+will not allow it
+
+# Lab 2E 
+
+Tackle the questions about sets, and sets ONLY, in the activity folder
+
+# Lab 2F
+
+Tackle the questions about dictionaries, and dictionaries ONLY, in the activity folder
+
+# Lab 2G
+
+There isn't any specific lab work
+
+# Lab 03A
+
+See the Activity01 folder.  Do NOT try the Challenge Questions yet
+
+Especially Question 4.  The suggested answer is very 'tech' oriented.
+Can you find a clearer approach?
+
+# Lab 03B
+
+In the activity01 folder.  Try the challenge questions
+
+# Lab 03C
+
+In the Activity02 folder.  Up to Q4 only
+
+# Lab 03D
+
+The rest of Activity02
 
 
-
-
-
+# Lab 03E
 # Using a loop
 
-We have not taught loops yet, but they go hand-in-hand with sequence type collections...
+Loops go hand-in-hand with sequence type collections...
 
 Working with the code challenge from day 1, set up a list, named `quantities` to contain the quantities of widgets Jemima makes - 30, 40, and 50
 
@@ -121,10 +158,10 @@ for quantity_made in quantities:
 print('Loop ended')
 ```
 
-The loop will set the variable `quantity_made` one by one to the members of the list.  Inside teh body of the loop it prints that value.  Run it to make sure
+The loop will set the variable `quantity_made` one by one to the members of the list.  Inside the body of the loop it prints that value.  Run it to make sure
 it displays the three quantity values
 
-Copy/paste ONE copy of the pay calculation code into the loop body.  It must be indented to become the loop body
+Copy/paste ONE copy of the pay calculation code into the loop body.  It must be indented to become the loop body.  Here is the code for that...
 ```
 rate_per_widget = 0.50
 quantity_made = 50
@@ -154,7 +191,13 @@ Add some more test values to the list.
 **Question** Which are the best test values?  Why?
 
 
+# Lab 03F
 
+We have been given a specification change for the payroll calculation.
+For those who produce more than 45 units, there are three possible bonus values;
+10% 15% and 20%.  As we calculate pay we are to print all three possible
+final pay values.
+Use a nested loop to implement this.
 
 
 # Day 3

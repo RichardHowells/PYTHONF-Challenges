@@ -49,11 +49,15 @@ print('even', l[0::2])
 print('odd', l[1::2])
 
 # Print the list in reverse order
-l.reverse()
+l.reverse()     # Watch out. The reverse function actually changes the original list
 print(l)
 
 # Or... WATCH OUT HERE.  Reverse has ALREADY reversed the list.  So print(l[::-1]) prints it reversed a second time
 # back into the original order 
 print(l[::-1])
 
+# The list l is still in reverse order.
+  
+l[0] = 5    # Content is now 5, 45, 44, etc
+print(l)
 
