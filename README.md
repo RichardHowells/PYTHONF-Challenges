@@ -46,9 +46,9 @@ Set up a string with mixed case text in it, a string that's all upper case, and 
 
 In the python docs look up the string methods. 
 
-Experiment with isupper(), islower() do they correctly report your strings?
+Experiment with `isupper()`, `islower()` do they correctly report your strings?
 
-Experiment with lower and upper.
+Experiment with `lower()` and `upper()`.
 
 These are often useful with user input.  For example, if we get the user to answer a question y for yes n for no.
 We cannot predict whether they will type the letters in Lowercase or uppercase. A common programming technique is to 
@@ -79,7 +79,8 @@ Experiment with that code.  Expand it to accept the full words (yes/no) as the r
 Create a list containing the values 10, 20, 30, 40
 
 Mutate the list by adding these values, one at a time **in the order specified**, print 
-the state of the list after each modification.  Carefully consider using `.append` or `.insert` so that at the end the list is in ascending numerical order
+the state of the list after each modification.  Carefully consider using `.append` or `.insert`
+so that at the end the list is left in ascending numerical order (**without** using `sort`).
 
 45
 46
@@ -201,5 +202,68 @@ Use a nested loop to implement this.
 
 
 # Day 3
+
+# Lab 04A
+
+Defer until we cover more slides
+
+
+# Lab 04B
+
+Defer...
+
+# Lab 04C 
+
+Defer...
+
+# Lab 04D
+
+Walk through of .\Module04\Lab01\Module04_Lab01...
+
+Note that the calculator function demonstrates inherited values.  It LOOKS to accept parameters, 
+but actually uses variables inherited from the caller.  Best practice is to communicate only through parameters and return
+values.  It makes the function self-contained and more reusable
+
+Stop at PyDoc
+
+# Lab 04E
+
+Go back to the walk though and look at PyDoc
+
+# BEFORE Lab 4F
+
+In parallel with the slideswalk through the Module_04\Lab02 folder
+
+# Lab 04F
+
+In the folder Module_04\Activity02
+
+# Lab 05A
+
+Show demo code from the Lab folder
+
+No specific lab work
+
+# Lab 05B
+
+No specific lab work
+
+# Lab 05C
+
+No specific lab work
+
+# Lab 05D
+
+No specific lab work
+
+# Lab 05F
+
+In the Module_05\Activity folder...
+
+
+
+
+
+
 # Counting characters
 
