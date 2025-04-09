@@ -1,7 +1,7 @@
 # PYTHONF-Challenges
 
-# Day 1
-# Calculating Pay
+## Day 1
+## Calculating Pay
 
 Jemima takes a job making widgets.  She is paid 50p for each widget she makes.
 
@@ -40,7 +40,7 @@ Extend your code again so that after Jemima produces 45 widgets she gets a 10% b
 Test it as above
 
 
-# Working with string methods...
+## Working with string methods...
 
 Set up a string with mixed case text in it, a string that's all upper case, and a string thats all lower case.
 
@@ -70,11 +70,11 @@ Experiment with that code.  Expand it to accept the full words (yes/no) as the r
 
 
 
-# Day 2
+## Day 2
 
-# Lab02B
+## Lab02B
 
-# Mutating a list...
+## Mutating a list...
 
 Create a list containing the values 10, 20, 30, 40
 
@@ -97,50 +97,50 @@ Print the list in reverse order
 
 Overwrite the first element in the list with the value 5
 
-# Lab 02D
+## Lab 02D
 
 Create a tuple containing the values 10, 20, 30, 40
 
 Attempt to overwrite the first element in the tuple.  Discover that Python
 will not allow it
 
-# Lab 2E 
+## Lab 2E 
 
 Tackle the questions about sets, and sets ONLY, in the activity folder
 
-# Lab 2F
+## Lab 2F
 
 Tackle the questions about dictionaries, and dictionaries ONLY, in the activity folder
 
-# Lab 2G
+## Lab 2G
 
 There isn't any specific lab work
 
-# Lab 03A
+## Lab 03A
 
 See the Activity01 folder.  Do NOT try the Challenge Questions yet
 
 Especially Question 4.  The suggested answer is very 'tech' oriented.
 Can you find a clearer approach?
 
-# Lab 03B
+## Lab 03B
 
 In the activity01 folder.  Try the challenge questions
 
 
-# Day 3
+## Day 3
 
-# Lab 03C
+## Lab 03C
 
 In the Activity02 folder.  Q1 to Q3 only
 
-# Lab 03D
+## Lab 03D
 
 The rest of Activity02
 
 
-# Lab 03E
-# Using a loop
+## Lab 03E
+## Using a loop
 
 Loops go hand-in-hand with sequence type collections...
 
@@ -158,7 +158,7 @@ for quantity_made in quantities:
 	# body
 	print(quantity_made)
 
-# un-indented code does not belong to the loop
+## un-indented code does not belong to the loop
 print('Loop ended')
 ```
 
@@ -195,7 +195,7 @@ Add some more test values to the list.
 **Question** Which are the best test values?  Why?
 
 
-# Lab 03F
+## Lab 03F
 
 We have been given a specification change for the payroll calculation.
 For those who produce more than 45 units, there are three possible bonus values;
@@ -204,20 +204,20 @@ final pay values.
 Use a nested loop to implement this.
 
 
-# Lab 04A
+## Lab 04A
 
 Defer until we cover more slides
 
 
-# Lab 04B
+## Lab 04B
 
 Defer...
 
-# Lab 04C 
+## Lab 04C 
 
 Defer...
 
-# Lab 04D
+## Lab 04D
 
 Walk through of .\Module04\Lab01\Module04_Lab01...
 
@@ -227,44 +227,58 @@ values.  It makes the function self-contained and more reusable
 
 Stop at PyDoc
 
-# Lab 04E
+## Lab 04E
 
 Go back to the walk though and look at PyDoc
 
-# BEFORE Lab 4F
+## BEFORE Lab 4F
 
 In parallel with the slideswalk through the Module_04\Lab02 folder
 
-# Lab 04F
+## Lab 04F
 
 In the folder Module_04\Activity02
 
-# Lab 05A
+## Lab 05A
 
 Show demo code from the Lab folder
 
 No specific lab work
 
-# Lab 05B
+## Lab 05B
 
 No specific lab work
 
-# Lab 05C
+## Lab 05C
 
 No specific lab work
 
-# Lab 05D
+## Lab 05D
 
 No specific lab work
 
-# Lab 05F
+## Lab 05F
 
 In the Module_05\Activity folder...
 
+# Module 6
 
+## Lab 06A
 
+No specific lab work
 
+## Lab 06B
 
+No specific lab work
 
-# Counting characters
+## Lab 06C
 
+No specific lab work
+
+## Lab 06D
+
+In the Module_06\Activity folder
+
+## Lab 02
+
+Walk through Module_06\Lab02
