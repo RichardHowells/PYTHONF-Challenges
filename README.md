@@ -127,9 +127,12 @@ Can you find a clearer approach?
 
 In the activity01 folder.  Try the challenge questions
 
+
+# Day 3
+
 # Lab 03C
 
-In the Activity02 folder.  Up to Q4 only
+In the Activity02 folder.  Q1 to Q3 only
 
 # Lab 03D
 
@@ -200,8 +203,6 @@ For those who produce more than 45 units, there are three possible bonus values;
 final pay values.
 Use a nested loop to implement this.
 
-
-# Day 3
 
 # Lab 04A
 
