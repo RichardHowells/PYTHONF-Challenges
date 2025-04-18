@@ -1,3 +1,6 @@
+Post course feedback link https://firebrand.training/uk/feedback?cscode=pythonf&did=228667
+
+
 # PYTHONF-Challenges
 
 ## Day 1
@@ -51,9 +54,9 @@ Experiment with `isupper()`, `islower()` do they correctly report your strings?
 Experiment with `lower()` and `upper()`.
 
 These are often useful with user input.  For example, if we get the user to answer a question y for yes n for no.
-We cannot predict whether they will type the letters in Lowercase or uppercase. A common programming technique is to 
+We cannot predict whether they will type the letters in lowercase or uppercase. A common programming technique is to 
 convert what they enter 
-into either all uppercase or all lowercase . This makes it easier for us to write conditions . Something like...
+into either all uppercase or all lowercase. This makes it easier for us to write conditions. Something like...
 
 ```
 answer = input("Should I format your hard disk? (y/n)")
@@ -78,7 +81,7 @@ Experiment with that code.  Expand it to accept the full words (yes/no) as the r
 
 Create a list containing the values 10, 20, 30, 40
 
-Mutate the list by adding these values, one at a time **in the order specified**, print 
+Mutate the list by adding these values, one at a time **in the order specified**.  Print 
 the state of the list after each modification.  Carefully consider using `.append` or `.insert`
 so that at the end the list is left in ascending numerical order (**without** using `sort`).
 
@@ -89,7 +92,7 @@ so that at the end the list is left in ascending numerical order (**without** us
 15
 25
 
-Print all the even subscript items
+Print all the even subscript items (Ie [0], [2] [4] etc)
 
 Print all the odd subscript items
 
@@ -150,12 +153,7 @@ Paste in this code to iterate through those values...
 
 ```
 for quantity_made in quantities:
-	# Indented 
-	# code 
-	# for 
-	# the 
-	# loop 
-	# body
+	# Indented code establishes the loop body
 	print(quantity_made)
 
 ## un-indented code does not belong to the loop
@@ -165,7 +163,7 @@ print('Loop ended')
 The loop will set the variable `quantity_made` one by one to the members of the list.  Inside the body of the loop it prints that value.  Run it to make sure
 it displays the three quantity values
 
-Copy/paste ONE copy of the pay calculation code into the loop body.  It must be indented to become the loop body.  Here is the code for that...
+Copy/paste ONE copy of the pay calculation code into the loop body.  It must be indented to become the loop body.  Here is the original code for that...
 ```
 rate_per_widget = 0.50
 quantity_made = 50
@@ -187,6 +185,8 @@ print('The pay for 50 is', pay)
 ```
 
 REMOVE the assignment to `quantity_made` inside the loop body.  The loop header already does that.
+
+ADJUST the final print statement so that it uses the `quantity_made` variable instead of the hard coded 50
 
 Test to see that the loop produces the same results as the original repeated code
 
@@ -259,7 +259,7 @@ No specific lab work
 
 ## Lab 05F
 
-In the Module_05\Activity folder...
+In the Module_05\Activity02 folder...
 
 # Module 6
 
