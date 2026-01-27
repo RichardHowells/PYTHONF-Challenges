@@ -126,7 +126,7 @@ Choices:
 
 - **Question - 2**:
 
-You are given the below two lists:
+Given two lists:
 
 <code>list1 = [1, 2, 3, 4, 5, 6]</code><br>
 <code>list2 = [4, 5, 6, 7, 8]</code>
@@ -137,7 +137,7 @@ Second convert the lists to sets. Check out the documentation for set operations
 
 - **Question - 3**:
 
-You are given these 3 lists:
+Given 3 lists:
 
 <code>ls1 = [1, 5, 10, 20, 40, 80]</code><br>
 <code>ls2 = [6, 7, 20, 80, 100]</code><br>
@@ -175,16 +175,16 @@ Why did you give that answer?
         
  - **Question - 3**:
  
- You are given two lists:
+ Given two lists:
  
  <code>keys = ['key1', 'key2', 'key3']</code><br>
  <code>values = [1, 2, 3]</code><br>
  
-Convert these lists into a dictionary such that the keys list entries become the keys in the dictionary and the values list entries become the values in the same dictionary.
+Convert these lists into a dictionary such that the `keys` list entries become the keys in the dictionary and the `values` list entries become the values in the same dictionary.
 
 - **Question - 4**:
 
-You are provided with two dictionaries below:
+Given the two dictionaries below:
 
 <code> dict_1 = {'key1': 1, 'key2': 2, 'key3': 3}</code><br>
 <code> dict_2 = {'key4': 4, 'key5': 5, 'key6': 6}</code><br>
@@ -205,7 +205,7 @@ Print the value for the key 'history'.
 
 Create an if-else statement to determine if a number is even or odd. 
 
-Prompt for input and check that input. Print the number along with a message stating that the number is odd or even.
+Prompt for input and apply the even/odd check to that input. Print the number along with a message stating that the number is odd or even.
 
 - **Question - 2**: 
 
