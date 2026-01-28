@@ -42,6 +42,13 @@ dict_3 = dict(dict_1)  # Copy the dictionary, why is dict_3 = dict2 not going to
 dict_3.update(dict_2)
 print(dict_3)
 
+# Add a key4 to dict_1, then we will see what happens with the update
+
+dict_1 = {'key1': 1, 'key2': 2, 'key3': 3, 'key4': -1}
+
+dict_1.update(dict_2)   # The incoming key4 : 4 value will overwrite the original -1
+print(dict_1)
+
 
 print("Q5")
 dictionary = {"class": {"student": {"name": "Mike", "marks": {"physics": 70, "history": 80}}}}
