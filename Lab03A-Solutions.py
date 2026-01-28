@@ -23,11 +23,11 @@ else:
     # Ask user for an input - does not cover negative numbers
 user_in = int(input('Please enter a number to check the number of digits:'))
 
-if user_in > 0 and user_in < 10:
+if user_in >= 0 and user_in < 10:
     print(user_in,' is a single digit number')
-elif user_in > 10 and user_in < 100:
+elif user_in >= 10 and user_in < 100:
     print(user_in,' is a two digit number')
-elif user_in > 100 and user_in < 1000:
+elif user_in >= 100 and user_in < 1000:
     print(user_in,' is a three digit number')
 else:
     print('The entered number is composed of more than 3 digits')
@@ -45,6 +45,21 @@ elif user_in >= '0' and user_in <= '9':
 else:
     print(user_in, ' is a special character')
 if user_in in "aeiouAEIOU":
+    print(user_in, " is a vowel")
+
+
+    # This is nicer using the string library where we can
+user_in = input('Please enter a character for verification:')
+
+if user_in.isupper():
+    print(user_in, ' is an upper case character')
+elif user_in.islower():
+    print(user_in, ' is a lower case character')
+elif user_in.isdigit():
+    print(user_in, ' is a digit')
+else:
+    print(user_in, ' is a special character')
+if user_in in "aeiouAEIOU":         # Or alternatively user_in.lower() in "aeiou"
     print(user_in, " is a vowel")
 
 
