@@ -180,7 +180,7 @@ Why did you give that answer?
  <code>keys = ['key1', 'key2', 'key3']</code><br>
  <code>values = [1, 2, 3]</code><br>
  
-Convert these lists into a dictionary such that the `keys` list entries become the keys in the dictionary and the `values` list entries become the values in the same dictionary.
+Convert these lists into a dictionary such that the `keys` list entries become the keys in the dictionary and the `values` list entries become the values in the same dictionary. To do this you need to pair together the first item in keys, with the first item in values, then the second items etc.  The `zip` function does exactly that.
 
 - **Question - 4**:
 
@@ -189,7 +189,7 @@ Given the two dictionaries below:
 <code> dict_1 = {'key1': 1, 'key2': 2, 'key3': 3}</code><br>
 <code> dict_2 = {'key4': 4, 'key5': 5, 'key6': 6}</code><br>
 
-Merge these dictionaries into a single dictionary.
+Merge these dictionaries into a single dictionary. HINT - research the dictionary `update` method
 
 Here the keys are unique over both dictionaries.  Experiment to show what happens if both dictionaries contain the same key?
 
