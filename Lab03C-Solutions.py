@@ -33,8 +33,8 @@ while index < len(lst):
         print(100, "is at index", index)
     index += 1
 
-# Using the very clever python enumerate function
-# enumerate returns each item as a tuple containing the index and the item
+# Using the very clever python enumerate() function
+# enumerate returns each item, as a tuple containing the item's index position and the item
 for index, n in enumerate(lst):
     if n == 100:
         print(100, "is at index", index)
