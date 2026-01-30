@@ -593,7 +593,7 @@ for shape in shapes:
 
 Newspapers and magazines often print lines such that the first character aligns on the left margin and the last character aligns on the right margin.  With a fixed pitch font this is done by adding extra spaces between the words to push the rightmost character to the correct position.
 
-Clearly it looks silly to put (say) five spaces before the last word.  The (say) five spaces should be distributed, evenly as possible, into the gaps between the words on the line.  The process is a little nore complex with variable pitch fonts, but the idea is the same
+Clearly it looks silly to put (say) five spaces before the last word.  The (say) five spaces should be distributed, evenly as possible, into the gaps between the words on the line.  The process is a little more complex with variable pitch fonts, but the idea is the same
 
 The lab doesn't implement the entire functionality, just a couple of useful parts. You can complete it later if you like!
 
