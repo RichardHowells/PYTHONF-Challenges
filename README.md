@@ -81,6 +81,8 @@ Print the list.  Notice that the default print output shows the square brackets,
 
 Mutate the list by adding these values, one at a time **in the order specified**.  Print the state of the list after each modification.  Carefully consider using `.append` or `.insert` so that at the end the list is left in ascending numerical order (**without** using `sort`).
 
+`.insert(index, value)` will add `value` at position `index` in the list.
+
 45
 46
 44
