@@ -133,9 +133,9 @@ Given two lists:
 <code>list1 = [1, 2, 3, 4, 5, 6]</code><br>
 <code>list2 = [4, 5, 6, 7, 8]</code>
 
-Find the missing and additional values in both the lists.  First write a loop with an `if` test inside. Hint... the `in` operator may help you.
+Find the missing and additional values in both the lists.
 
-Second convert the lists to sets. Check out the documentation for set operations like `intersection` and `difference`.  You should be able to get the same results with much less code.
+To do this convert the lists to sets. Check out the documentation for `set` operations like `intersection` and `difference`.  You should be able to get the results with just a couple of lines of code.
 
 - **Question - 3**:
 
