@@ -13,6 +13,8 @@ list2 = [4, 5, 6, 7, 8]
 
 list2_missing = []
 
+# This example solution uses loops and conditionals which we have not formally studied yet
+# It is the kind of code that will be inside the set class's methods
 for i in list1:
     if i not in list2:
         list2_missing.append(i)
@@ -29,7 +31,7 @@ print("List2 additionals", list2_additional)
 
 # The code would be very similar to determine missing values in list1 and additional values in list1
 
-
+# Example solution using set's methods
 # The builtin set class has inbuilt logic for this kind of work
 # with fewer lines of code
 # Notice that although we get the same result VALUES, the actual result is a set
@@ -38,6 +40,11 @@ print("List2 additionals", list2_additional)
 print("List2 missing values (using set.difference)", set(list1).difference(set(list2)))
 print("List2 additional values (using set.difference)", set(list2).difference(set(list1)))
 
+# It turns out that (for example) the difference method does not insist on being passed a set.  
+# It can handle being given a list directly
+print("List2 missing values (using set.difference)", set(list1).difference(list2))
+
+# Even more convenient the set class will work with symbolic operators.  For example '-' is equivalent to diff
 
 
 print("Q3")
