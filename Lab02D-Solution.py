@@ -37,7 +37,7 @@ dict_2 = {'key4': 4, 'key5': 5, 'key6': 6}
 dict_1.update(dict_2)
 print(dict_1)
 
-# If dict_1 must not be unmodified then
+# If dict_1 must not be modified then
 dict_3 = dict(dict_1)  # Copy the dictionary, why is dict_3 = dict2 not going to work?
 dict_3.update(dict_2)
 print(dict_3)
