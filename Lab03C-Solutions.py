@@ -12,6 +12,16 @@ else:
 
 print("Q2")
 sum = 0
+n = 0
+while n < 21:
+    sum += n
+    n +=1
+
+print(sum)
+
+
+#  A solution using for (the Q did say use while)
+sum = 0
 for n in range(21):
     sum += n
 
