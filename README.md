@@ -425,7 +425,7 @@ This is a just a taste of what the pydoc system is capable of.
 
 - **Question - 1: Raise an Exception**
 
-Create a small function that expects a single parameter value between 0 to 100, if the value received by the function is outside the specified range, `raise` a `ValueError` exception.  The function should NOT handle this error internally.  It doesn't need to do anything with the incoming paramter other than check its range
+Create a small function that expects a single parameter value between 0 to 100, if the value received by the function is outside the specified range, `raise` a `ValueError` exception.  The function should NOT handle this error internally.  It doesn't need to do anything with the incoming parameter other than check its range
 
 Write code to call the function with a value inside the range and a value outside the range.  Notice that the value outside the range causes the program to crash.
 
