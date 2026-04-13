@@ -21,13 +21,13 @@ for i in list1:
 
 print("list2 missing values", list2_missing)
 
-list2_additional = []
+list1_missing = []
 
 for i in list2:
     if i not in list1:
-        list2_additional.append(i)
+        list1_missing.append(i)
 
-print("List2 additionals", list2_additional)
+print("List2 missing values", list1_missing)
 
 # The code would be very similar to determine missing values in list1 and additional values in list1
 
@@ -38,7 +38,7 @@ print("List2 additionals", list2_additional)
 # You can tell because print() will show the curly braces 
 
 print("List2 missing values (using set.difference)", set(list1).difference(set(list2)))
-print("List2 additional values (using set.difference)", set(list2).difference(set(list1)))
+print("List2 missing values (using set.difference)", set(list2).difference(set(list1)))
 
 # It turns out that (for example) the difference method does not insist on being passed a set.  
 # It can handle being given a list directly

@@ -133,7 +133,9 @@ Given two lists:
 <code>list1 = [1, 2, 3, 4, 5, 6]</code><br>
 <code>list2 = [4, 5, 6, 7, 8]</code>
 
-Find the missing and additional values in both the lists.
+Find the entries in `list1` that are missing from `list2`.
+
+Find the entries in `list2` that are missing from `list1`.
 
 To do this convert the lists to sets. Check out the documentation for `set` operations like `intersection` and `difference`.  You should be able to get the results with just a couple of lines of code.
 
